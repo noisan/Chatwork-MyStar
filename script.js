@@ -238,7 +238,7 @@ function updateView() {
     oldScroll = timeLine.scrollHeight - timeLine.scrollTop;
 
     // スター付きに関係する要素のみ表示
-    var css = '._message:not([data-starred-at]) { overflow: hidden; visibility: hidden; height: 0px; margin: 0; padding: 0; border: 0; }';
+    var css = '#_timeLine ._message:not([data-starred-at]) { overflow: hidden; visibility: hidden; height: 0px; margin: 0; padding: 0; border: 0; }';
     css += '.dateHead { display: none; } .chatTimeLine { padding-top: 0.5em; }';
 
     var s = document.createElement('style');

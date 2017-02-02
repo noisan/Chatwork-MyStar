@@ -10,7 +10,7 @@
    } ],
    "name": "Chatwork MyStar",
    "description": "Chatwork.comに非公式のスター機能を追加するChromeエクステンション",
-   "version": "1.0.2",
+   "version": "1.0.3",
    "permissions": [ "storage" ],
    "converted_from_user_script": true
 }
